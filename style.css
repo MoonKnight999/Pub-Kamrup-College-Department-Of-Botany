@@ -17,13 +17,14 @@ nav{
 }
 
 #title{
-    font-size: 2.5rem;
+    font-size: auto;
+    word-wrap: normal;
 }
 
 a img{
     border-radius: 50%;
-    margin: 0 0.9rem;
-    transform: scale(2);
+    margin-right: 0.9rem;
+    transform: scale(1.5);
 }
 
 .carousel{
@@ -71,4 +72,8 @@ li a:hover{
 
 .mb-2{
     color: black;
+}
+
+.container-fluid{
+    width: 100vw!important;
 }
